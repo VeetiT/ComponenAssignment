@@ -1,12 +1,14 @@
-import './App.css'
+
+import Header from './components/Header'
+import './styles/app.css'
+import image from './assets/sun.jpg'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-
-    </>
+    <div>
+        <Header image={image} title="Welcome to the Product Page!" />
+    </div>
   )
 }
 

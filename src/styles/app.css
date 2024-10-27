@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    padding-left: 30px;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.header {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border: 2px solid white;
+}
+
