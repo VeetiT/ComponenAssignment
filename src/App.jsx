@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import ProductForm from './components/ProductForm'
+import OrderInfo from './components/OrderInfo'
 import { useState } from 'react'
 import './styles/app.css'
 import image from './assets/Sun.jpg'
@@ -24,6 +25,8 @@ function App() {
         setProduct={setProduct}
         quantity={quantity}
         chooseQuantity={chooseQuantity}/>
+        <br></br>
+        <OrderInfo/>
     </div>
   )
 }
