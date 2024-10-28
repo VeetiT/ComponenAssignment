@@ -26,7 +26,7 @@ function App() {
         quantity={quantity}
         chooseQuantity={chooseQuantity}/>
         <br></br>
-        <OrderInfo/>
+        <OrderInfo product={chooseProduct.name} quantity={quantity} total={total} />
     </div>
   )
 }
