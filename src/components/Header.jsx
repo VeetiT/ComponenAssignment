@@ -1,5 +1,3 @@
-import React from "react"
-
 
 function Header({image, title}) {
     return (
